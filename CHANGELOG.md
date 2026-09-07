@@ -6,6 +6,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 aims to follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once the first release is
 tagged. Until then, source builds report the version `dev`.
 
+## [0.9.0](https://github.com/Gitlawb/zero/compare/v0.8.0...v0.9.0) (2026-09-07)
+
+
+### Features
+
+* **acp:** surface safe browser tool metadata ([#1000](https://github.com/Gitlawb/zero/issues/1000)) ([a6ec043](https://github.com/Gitlawb/zero/commit/a6ec0435e36b9bea9793b2fd97f2ecd30e3a0f9b))
+
+
+### Bug Fixes
+
+* **lockutil:** use kernel-held advisory locks ([#950](https://github.com/Gitlawb/zero/issues/950)) ([6fe0d1e](https://github.com/Gitlawb/zero/commit/6fe0d1edcdbadea6d566800fbcca739c1cd54ea1))
+* **mcp:** discover OAuth through protected resource metadata ([#991](https://github.com/Gitlawb/zero/issues/991)) ([1b5db17](https://github.com/Gitlawb/zero/commit/1b5db1765672820caac1684b168c9898b5ba3593))
+* **sandbox:** Make WSL backend tests deterministic. ([#948](https://github.com/Gitlawb/zero/issues/948)) ([e59bf78](https://github.com/Gitlawb/zero/commit/e59bf78cabc2703678778b904c27c8bc8ef82bc8))
+* **sandbox:** protect worktree git pointers ([#805](https://github.com/Gitlawb/zero/issues/805)) ([f30f550](https://github.com/Gitlawb/zero/commit/f30f550e6037c53f8521ba2d59c984ae6c574917))
+* **sandbox:** refcount temporary roots so one holder's cleanup cannot revoke another's ([#911](https://github.com/Gitlawb/zero/issues/911)) ([7acac7a](https://github.com/Gitlawb/zero/commit/7acac7acee65565e25089f2a7b5813c086ce65eb))
+* **specialist:** keep the pinned model when a specialist is resumed ([#1009](https://github.com/Gitlawb/zero/issues/1009)) ([aadb4a2](https://github.com/Gitlawb/zero/commit/aadb4a27e9cdb41e774e8e1a8f23cf9c2fb50db2))
+* **tools:** an edit keeps the reads it did not disturb ([#908](https://github.com/Gitlawb/zero/issues/908)) ([1649008](https://github.com/Gitlawb/zero/commit/1649008506da0e675431dc056251a01891b15cc8))
+* **tools:** make apply_patch tolerant and re-expose edit_file ([#956](https://github.com/Gitlawb/zero/issues/956)) ([2749447](https://github.com/Gitlawb/zero/commit/2749447cdce4ae5dd333538b36fa919b80ecc66d))
+* **tui:** move voice capture to Ctrl+Space ([#968](https://github.com/Gitlawb/zero/issues/968)) ([eeea330](https://github.com/Gitlawb/zero/commit/eeea3308fed38b37b203522624babaf2f30df91f))
+
+
+### Performance Improvements
+
+* **agent:** cheap compaction — dedicated summarizer model, input cap… ([#532](https://github.com/Gitlawb/zero/issues/532)) ([6645f97](https://github.com/Gitlawb/zero/commit/6645f9744b37dda4d52ecc4631578d62cefc89de))
+* reduce startup and turn overhead ([#932](https://github.com/Gitlawb/zero/issues/932)) ([1fde941](https://github.com/Gitlawb/zero/commit/1fde941803c4295c11a4a14559f3c5217d1a9e69))
+
 ## [0.8.0](https://github.com/Gitlawb/zero/compare/v0.7.0...v0.8.0) (2026-08-21)
 
 
